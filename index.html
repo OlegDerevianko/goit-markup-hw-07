@@ -11,37 +11,38 @@
 </head>
 <body>
 	<header class="header">
-        <div class="header__container container">
-            <nav class="nav">
-                <a href="./index.html" class="nav___logo">Web<span class="nav___accent">Studio</span></a>
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="./index.html" class="link current">Студия</a></li>
-                    <li class="nav__item"><a href="./portfolio.html" class="link">Портфолио</a></li>
-                    <li class="nav__item"><a href="" class="link">Контакты</a></li>
+        <div class="container header-nav">
+            <nav class="site-nav">
+                <a href="./index.html" class="logo">Web<span class="accent-header">Studio</span></a>
+                <ul class="list-force">
+                    <li class="item"><a href="./index.html" class="link">Студия</a></li>
+                    <li class="item"><a href="./portfolio.html" class="link current">Портфолио</a></li>
+                    <li class="item"><a href="" class="link">Контакты</a></li>
                 </ul>
             </nav>
             <address class="address-header">
                 <ul class="list-force">
-                    <li class="item">                        
+                    <li class="item">                    
                         <a href="mailto:info@devstudio.com" class="mail-header">
                             <svg class="mail-icon" width="16px" height="12px" aria-hidden="true">
                                 <use href="./images/icons.svg#icon-mail"></use>
-                            </svg>info@devstudio.com
+                            </svg>
+                            info@devstudio.com
                         </a>
                     </li>
-                    <li class="item">                        
+                    <li class="item">                    
                         <a href="tel:+380961111111" class="tel">
                             <svg class="tel-icon" width="10px" height="16px" aria-hidden="true"> 
                                 <use href="./images/icons.svg#icon-smartphone"></use>
-                            </svg>+38 096 111 11 11
+                            </svg>
+                            +38 096 111 11 11
                         </a>
                     </li>
                 </ul>
-            </address>
-            
+            </address>        
         </div>
         
-
+    
     </header>
 	<main>
 		<section class="hero">
@@ -399,19 +400,19 @@
 	</footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button class="modal__button-close" type="button" data-modal-close>
-                <svg class="modal__icon-close" width="11px" height="11px" aria-hidden="true">
+            <button class="button-close" type="button" data-modal-close>
+                <svg class="button-icon-close" width="11px" height="11px" aria-hidden="true">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
-        <div class="modal__inner">
-                <h3 class="modal__title title">Оставьте свои данные,мы вам перезвоним</h3>    
+        <div class="modal-inner">
+                <h3 class="modal-title title">Оставьте свои данные,мы вам перезвоним</h3>    
                 <form class="form" name="main-form" autocomplete="off" novalidate>
-                    <div class="form__field">
-                        <label class="form__field-label" for="name" >Имя</label>
-                        <div class="form__field-inner">
-                            <input class="form__field-input" type="text" name="name" id="name" autofocus />
-                            <svg class="form__field-icon icon" width="18px" height="18px" aria-hidden="true">
+                    <div class="form-field">
+                        <label class="form-field-label" for="name" >Имя</label>
+                        <div class="form-field-inner">
+                            <input class="form-field-input" type="text" name="name" id="name" autofocus />
+                            <svg class="form-field-icon icon" width="18px" height="18px" aria-hidden="true">
                                 <use href="./images/icons.svg#icon-person"></use>
                             </svg>
                         </div>
